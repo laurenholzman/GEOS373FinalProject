@@ -1,0 +1,19 @@
+ENVI
+samples = 1403
+lines   = 1195
+bands   = 1
+data type = 1
+interleave = bsq
+file type = ENVI Classification
+header offset = 0
+byte order = 0
+map info = {UTM, 1.000, 1.000, 316425.000, 5709135.000, 3.000000e+01, 3.000000e+01, 10, North, WGS-84, units=Meters}
+coordinate system string = {PROJCS["WGS_1984_UTM_Zone_10N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",-123.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]}
+x start = 1729
+y start = 4677
+classes = 3
+class names = {
+ Unclassified, Not Glacier, Glacier}
+class lookup = {
+   0,   0,   0, 255, 175,  29, 160, 160, 255}
+acquisition time = 2016-08-17
