@@ -1,0 +1,401 @@
+{
+    "file_type": "ENVI Session File",
+    "version": "5.6.3",
+    "input_directory": "C:\\temp\\FinalProj\\",
+    "output_directory": "C:\\temp\\FinalProj\\",
+    "layout": "2,2",
+    "view00": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "2022_ROI",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20220810\\2022_ROI.HDR",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20220810\\2022_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20220810\\2022_ROI.enp"]
+            },
+            "bands": "3,2,1",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -0.0037258212153498615,
+                    "stretch_max": 1.0581513100969473
+                },
+                {
+                    "stretch_min": 0.0084987112926233552,
+                    "stretch_max": 1.0842996424497229
+                },
+                {
+                    "stretch_min": -0.042738181041988052,
+                    "stretch_max": 1.0996774970381349
+                }
+            ],
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic",
+            "roi000": {
+                "name": "GT Not Glacier",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 0,
+                    "factory": "URLRoi",
+                    "url": "C:\\temp\\FinalProj\\validation.xml"
+                }
+            },
+            "roi001": {
+                "name": "GT Glacier",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 1,
+                    "factory": "URLRoi",
+                    "url": "C:\\temp\\FinalProj\\validation.xml"
+                }
+            },
+            "roi002": {
+                "name": "Not Glacier",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 0,
+                    "factory": "URLRoi",
+                    "url": "C:\\temp\\FinalProj\\SupClassTD1.xml"
+                }
+            },
+            "roi003": {
+                "name": "Glacier",
+                "hide": 0,
+                "transparency": 0,
+                "data": {
+                    "dataset_index": 1,
+                    "factory": "URLRoi",
+                    "url": "C:\\temp\\FinalProj\\SupClassTD1.xml"
+                }
+            }
+        },
+        "layer001": {
+            "name": "2022_sup",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\2022_sup",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\2022_sup.hdr", "C:\\temp\\FinalProj\\2022_sup.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer002": {
+            "name": "2022_sup_smooth",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2022_sup_smooth",
+                "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2022_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2022_sup_smooth.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "center": "-125.54807,51.420942",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "PROJCS[\"WGS_1984_UTM_Zone_10N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-123.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]",
+        "geolink": "0,1,2,3",
+        "zoomlink": "0,1,2,3"
+    },
+    "view01": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "2018_ROI",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20180807\\2018_ROI.HDR",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20180807\\2018_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20180807\\2018_ROI.enp"]
+            },
+            "bands": "3,2,1",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -0.0016394731677847330,
+                    "stretch_max": 1.0026639919463280
+                },
+                {
+                    "stretch_min": 0.0038617219544935270,
+                    "stretch_max": 1.0129413657897226
+                },
+                {
+                    "stretch_min": -0.045250677002403060,
+                    "stretch_max": 1.0297258614879732
+                }
+            ],
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer001": {
+            "name": "2018_sup",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\2018_sup.hdr",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\2018_sup.hdr", "C:\\temp\\FinalProj\\2018_sup.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer002": {
+            "name": "2018_sup_smooth",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2018_sup_smooth",
+                "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2018_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2018_sup_smooth.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "center": "-125.54807,51.420942",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "PROJCS[\"WGS_1984_UTM_Zone_10N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-123.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]",
+        "geolink": "0,1,2,3",
+        "zoomlink": "0,1,2,3"
+    },
+    "view02": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "2016_ROI",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20160817\\2016_ROI.HDR",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20160817\\2016_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20160817\\2016_ROI.enp"]
+            },
+            "bands": "3,2,1",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -0.0048490515359392739,
+                    "stretch_max": 1.0213634654500039
+                },
+                {
+                    "stretch_min": 9.8248384333587957e-05,
+                    "stretch_max": 1.0325968079548609
+                },
+                {
+                    "stretch_min": -0.047694002466775361,
+                    "stretch_max": 1.0555648014119066
+                }
+            ],
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer001": {
+            "name": "2016_sup",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\2016_sup",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\2016_sup.hdr", "C:\\temp\\FinalProj\\2016_sup.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer002": {
+            "name": "2016_sup_smooth",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2016_sup_smooth",
+                "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2016_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2016_sup_smooth.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "center": "-125.54807,51.420942",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "PROJCS[\"WGS_1984_UTM_Zone_10N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-123.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]",
+        "geolink": "0,1,2,3",
+        "zoomlink": "0,1,2,3"
+    },
+    "view03": {
+        "name": "View",
+        "background_color": [255, 255, 255],
+        "layer000": {
+            "name": "2013_ROI",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20130809\\2013_ROI.HDR",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20130809\\2013_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20130809\\2013_ROI.enp"]
+            },
+            "bands": "3,2,1",
+            "quick_stretch": "linear 2%",
+            "contrast": 20,
+            "brightness": 50,
+            "stretch_mode": 0,
+            "stretch_parameters": [
+                {
+                    "stretch_min": -0.0013568926568337148,
+                    "stretch_max": 1.0263102980287704
+                },
+                {
+                    "stretch_min": 0.0056083972166602481,
+                    "stretch_max": 1.0374069701347539
+                },
+                {
+                    "stretch_min": -0.042020516958905227,
+                    "stretch_max": 1.0643551436619267
+                }
+            ],
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer001": {
+            "name": "2013_sup",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\temp\\FinalProj\\2013_sup",
+                "auxiliary_url": ["C:\\temp\\FinalProj\\2013_sup.hdr", "C:\\temp\\FinalProj\\2013_sup.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "layer002": {
+            "name": "2013_sup_smooth",
+            "hide": 0,
+            "transparency": 0,
+            "data": {
+                "factory": "URLRaster",
+                "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2013_sup_smooth",
+                "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2013_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2013_sup_smooth.enp"]
+            },
+            "bands": "0",
+            "zoom_percent": 51.199997,
+            "sharpen": 10.000000,
+            "interpolation": "Optimized Bicubic"
+        },
+        "center": "-125.54807,51.420942",
+        "rotation": "0.0000000",
+        "show_overview": "0",
+        "show_snail_trail": "1",
+        "coordinate_system": "PROJCS[\"WGS_1984_UTM_Zone_10N\",GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"False_Easting\",500000.0],PARAMETER[\"False_Northing\",0.0],PARAMETER[\"Central_Meridian\",-123.0],PARAMETER[\"Scale_Factor\",0.9996],PARAMETER[\"Latitude_Of_Origin\",0.0],UNIT[\"Meter\",1.0]]",
+        "geolink": "0,1,2,3",
+        "zoomlink": "0,1,2,3"
+    },
+    "dataset0000": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2013_sup_smooth",
+        "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2013_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2013_sup_smooth.enp"]
+    },
+    "dataset0001": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2016_sup_smooth",
+        "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2016_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2016_sup_smooth.enp"]
+    },
+    "dataset0002": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2018_sup_smooth",
+        "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2018_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2018_sup_smooth.enp"]
+    },
+    "dataset0003": {
+        "factory": "URLRaster",
+        "url": "C:\\Users\\adreher\\AppData\\Local\\Temp\\2022_sup_smooth",
+        "auxiliary_url": ["C:\\Users\\adreher\\AppData\\Local\\Temp\\2022_sup_smooth.hdr", "C:\\Users\\adreher\\AppData\\Local\\Temp\\2022_sup_smooth.enp"]
+    },
+    "dataset0004": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\2013_sup",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\2013_sup.hdr", "C:\\temp\\FinalProj\\2013_sup.enp"]
+    },
+    "dataset0005": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\2016_sup",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\2016_sup.hdr", "C:\\temp\\FinalProj\\2016_sup.enp"]
+    },
+    "dataset0006": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\2022_sup",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\2022_sup.hdr", "C:\\temp\\FinalProj\\2022_sup.enp"]
+    },
+    "dataset0007": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\2018_sup.hdr",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\2018_sup.hdr", "C:\\temp\\FinalProj\\2018_sup.enp"]
+    },
+    "dataset0008": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20220810\\2022_ROI.HDR",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20220810\\2022_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20220810\\2022_ROI.enp"]
+    },
+    "dataset0009": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20180807\\2018_ROI.HDR",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20180807\\2018_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20180807\\2018_ROI.enp"]
+    },
+    "dataset0010": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20160817\\2016_ROI.HDR",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20160817\\2016_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20160817\\2016_ROI.enp"]
+    },
+    "dataset0011": {
+        "factory": "URLRaster",
+        "url": "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20130809\\2013_ROI.HDR",
+        "auxiliary_url": ["C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20130809\\2013_ROI.hdr", "C:\\temp\\FinalProj\\Project_Imagery_Subset\\ROI_20130809\\2013_ROI.enp"]
+    },
+    "dataset0012": {
+        "dataset_index": 0,
+        "factory": "URLRoi",
+        "url": "C:\\temp\\FinalProj\\SupClassTD1.xml"
+    },
+    "dataset0013": {
+        "dataset_index": 0,
+        "factory": "URLRoi",
+        "url": "C:\\temp\\FinalProj\\validation.xml"
+    }
+}
